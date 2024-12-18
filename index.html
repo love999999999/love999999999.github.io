@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            background-color: #c4fcf0;
+            color: #00755c;
+
+            padding: 20px;
+            /* 内边距 */
+            text-align: center;
+            /* 文本居中 */
+        }
+
+        .main {
+            display: flex;
+            /* 使用Flexbox布局 */
+            justify-content: center;
+            /* 主轴（横轴）居中对齐 */
+            align-items: center;
+            /* 交叉轴（纵轴）居中对齐 */
+            height: calc(100vh - 80px);
+            /* 高度减去头部的高度 */
+
+            background-color: #FFC0CB;
+            color: #00755c;
+        }
+
+        .search-bar {
+            margin: 50px auto 400px;
+            width: 300px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            color: #2f4858;
+            background-color: #9ab3fb;
+
+            border: none;
+            border-radius: 5px;
+            /* 圆角边框 */
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            /* 阴影效果 */
+            cursor: pointer;
+
+            font-size: 20px
+        }
+
+        .sidebar {
+            display: flex;
+            /* 启用flexbox布局 */
+            width: 200px;
+            height: 200px;
+            justify-content: center;
+            /* 水平居中 */
+            align-items: center;
+            /* 垂直居中 */
+            text-align: center;
+            /* 确保文字在flex项中居中 */
+            color: #2f4858;
+            background-color: #669b90;
+
+            margin: 20px;
+            /* 外边距，根据需要调整 */
+            padding: 20px;
+            /* 内边距，根据需要调整 */
+            border: none;
+            border-radius: 5px;
+            /* 圆角边框 */
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            /* 阴影效果 */
+            cursor: pointer;
+
+            font-size: 50px
+        }
+
+        .content {
+            width: 400px;
+            margin: 0 20px;
+        }
+
+        a {
+            text-decoration: none;
+            /* 去掉下划线 */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Chen Guiming's LOVE</h1>
+    </div>
+
+
+    <div class="main">
+        <a href="3D album/love.html" target="_blank">
+            <div class="sidebar left">3D相册💗</div>
+        </a>
+        <div class="content">
+            <div class="search-bar">
+                点击下面两个选择查看💗
+            </div>
+        </div>
+        <a href="love/love.html" target="_blank">
+            <div class="sidebar right">
+                爱心💗
+            </div>
+        </a>
+
+    </div>
+</body>
+
+</html>
